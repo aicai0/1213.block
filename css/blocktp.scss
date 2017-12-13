@@ -1,0 +1,128 @@
+@import url('base.css');
+$wid:100%;
+header{
+  width: $wid;
+  height: 0.4rem;
+  background: #EC3B31;
+  overflow: hidden;
+  //padding-top: 0.1rem;
+  font-size: 0.16rem;
+}
+header a{
+  color:#fff;
+}
+.xwblok{
+  width: 0.5rem;
+  height: 0.3rem;
+  float:left;
+  margin: 0.1rem;
+  padding-left:0.05rem;
+}
+.tpblok{
+  width: 0.5rem;
+  height: 0.3rem;
+  float:left;
+  margin: 0.1rem;
+  padding-left:0.05rem;
+}
+.ssblok{
+  width: 0.5rem;
+  height: 0.3rem;
+  float:right;
+  margin: 0.1rem;
+  padding-left:0.05rem;
+}
+.jiazai{
+  width: $wid;
+  height: $wid;
+  position: fixed;
+  top:0;
+  left:0;
+
+}
+.jiazai img{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  margin:auto;
+
+  /* display: block;
+   width: 100%;
+   height: 100%;*/
+}
+main{
+  width:$wid;
+  height: auto;
+  padding:0.05rem;
+  box-sizing: border-box;
+}
+main .xwlist{
+  width: 95%;
+  //height: 1rem;
+  padding:0.02rem;
+  margin:0 auto;
+  overflow: hidden;
+  padding-bottom: 0.08rem;
+  padding-top: 0.08rem;
+  border-bottom: 1px solid #cccccc;
+}
+main .xwlist .xwtp{
+  width: $wid;
+  //height: 2rem;
+  float:left;
+  overflow: hidden;
+  //background: maroon;
+}
+main .xwlist .xwtp img{
+  display: block;
+  width: $wid;
+  //height: $wid;
+  overflow: hidden;
+}
+main .xwlist .right {
+  width: 100%;
+  background: red;
+}
+main .xwlist .right .xwtitle{
+  width: $wid;
+  height:$wid;
+  float:left;
+  font-size: 0.16rem;
+  //text-align: center;
+  line-height: 0.3rem;
+  //background: blue;
+}
+main .xwlist .right .xwtitle a{
+  color:#000;
+
+}
+main .xwlist .right  .xwqt{
+  width: $wid;
+  height: 30%;
+  float:right;
+  font-size: 0.1rem;
+  /*text-align: center;*/
+  //background: orangered;
+}
+main .xwlist .right  .xwqt .xwtime{
+  width: 45%;
+  height: $wid;
+  float:left;
+  font-size: 0.1rem;
+  line-height: 100%;
+  //background: bisque;
+}
+main .xwlist .right .xwqt .xwpl{
+  //width: 55%;
+  height: $wid;
+  float:right;
+  font-size: 0.08rem;
+  line-height: 100%;
+  //background: #aa0000;
+  color:#000;
+}
+main .xwlist .right .xwqt .xwpl i{
+  margin-left: 0.2rem;
+}

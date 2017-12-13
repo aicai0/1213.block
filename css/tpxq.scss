@@ -1,0 +1,135 @@
+@import url('base.css');
+$wid:100%;
+header{
+  width: $wid;
+  height: 0.4rem;
+  background: #EC3B31;
+  overflow: hidden;
+  //padding-top: 0.1rem;
+  font-size: 0.16rem;
+}
+header a{
+  color:#fff;
+}
+.xwblok{
+  width: 0.5rem;
+  height: 0.3rem;
+  float:left;
+  margin: 0.1rem;
+  padding-left:0.05rem;
+}
+.tpblok{
+  width: 0.5rem;
+  height: 0.3rem;
+  //float:left;
+  margin: 0.1rem auto;
+
+  padding-left:0.05rem;
+}
+.jiazai{
+  width: $wid;
+  height: $wid;
+  position: fixed;
+  top:0;
+  left:0;
+
+}
+.jiazai img{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  margin:auto;
+
+  /* display: block;
+   width: 100%;
+   height: 100%;*/
+}
+.xwtitle{
+  width: $wid;
+
+  float:left;
+  font-size: 0.18rem;
+  text-align: center;
+  line-height: 0.3rem;
+  margin-bottom: 0.1rem;
+  //background: blue;
+}
+.xwtitle a{
+  color:#000;
+}
+main{
+  width:$wid;
+  height: auto;
+  padding:0.05rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main .swiper-container{
+  height: 4rem;
+}
+.swiper-container .swiper-slide{
+  height: 70%;
+}
+.swiper-container .swiper-slide img{
+  display: block;
+  height: 100%;
+}
+.swiper-container .swiper-slide span{
+  display: block;
+  font-size: 0.16rem;
+  text-indent: 2em;
+}
+
+.xwqt{
+  width: $wid;
+  height: 0.15rem;
+  float:right;
+  font-size: 0.1rem;
+  /*text-align: center;*/
+  //background: orangered;
+}
+.xwqt .xwtime{
+  width: 45%;
+  height: $wid;
+  float:left;
+  font-size: 0.1rem;
+  line-height: 100%;
+  //background: bisque;
+}
+.xwqt .xwpl{
+  //width: 55%;
+  height: $wid;
+  float:right;
+  font-size: 0.08rem;
+  line-height: 100%;
+  //background: #aa0000;
+  color:#000;
+}
+.xwqt .xwpl i{
+  margin-left: 0.2rem;
+}
+main .rmpl{
+  width:95%;
+  overflow: hidden;
+}
+main .rmpl .pl-box{
+  width:$wid ;
+  margin:0 auto;
+  height: 0.5rem;
+  border-bottom:1px solid #ccc;
+}
+main .rmpl .pl-box .rmpl-title{
+  width: 0.8rem;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  border-bottom: 2px solid orangered;
+}
+main .rmpl .pl{
+  height: 1rem;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 1rem;
+}
+

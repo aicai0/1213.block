@@ -1,0 +1,132 @@
+@import url("base.css");
+header {
+  width: 100%;
+  height: 0.4rem;
+  background: #EC3B31;
+  overflow: hidden;
+  font-size: 0.16rem; }
+
+header a {
+  color: #fff; }
+
+.xwblok {
+  width: 0.5rem;
+  height: 0.3rem;
+  float: left;
+  margin: 0.1rem;
+  padding-left: 0.05rem; }
+
+.tpblok {
+  width: 0.5rem;
+  height: 0.3rem;
+  margin: 0.1rem auto;
+  padding-left: 0.05rem; }
+
+.jiazai {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.jiazai img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  /* display: block;
+   width: 100%;
+   height: 100%;*/ }
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 0.05rem;
+  box-sizing: border-box; }
+
+main .xwlist {
+  width: 95%;
+  padding: 0.02rem;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 0.08rem;
+  padding-top: 0.08rem; }
+
+main .xwlist .xwtp {
+  width: 100%;
+  float: left;
+  overflow: hidden; }
+
+main .xwlist .xwtp img {
+  display: block;
+  width: 100%;
+  overflow: hidden; }
+
+main .xwlist .xwtitle {
+  width: 100%;
+  height: 100%;
+  float: left;
+  font-size: 0.18rem;
+  text-align: center;
+  line-height: 0.3rem;
+  margin-bottom: 0.1rem; }
+
+main .xwlist .xwtitle a {
+  color: #000; }
+
+main .xwlist .content {
+  width: 100%;
+  font-size: 0.16rem;
+  text-indent: 2em;
+  line-height: 0.3rem; }
+
+main .xwlist .content span {
+  display: block;
+  margin-bottom: 0.1rem; }
+
+main .xwlist .xwqt {
+  width: 100%;
+  height: 30%;
+  float: right;
+  font-size: 0.1rem;
+  /*text-align: center;*/ }
+
+main .xwlist .xwqt .xwtime {
+  width: 45%;
+  height: 100%;
+  float: left;
+  font-size: 0.1rem;
+  line-height: 100%; }
+
+main .xwlist .xwqt .xwpl {
+  height: 100%;
+  float: right;
+  font-size: 0.08rem;
+  line-height: 100%;
+  color: #000; }
+
+main .xwlist .xwqt .xwpl i {
+  margin-left: 0.2rem; }
+
+main .rmpl {
+  width: 95%; }
+
+main .rmpl .pl-box {
+  width: 100%;
+  margin: 0 auto;
+  height: 0.5rem;
+  border-bottom: 1px solid #ccc; }
+
+main .rmpl .pl-box .rmpl-title {
+  width: 0.8rem;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  border-bottom: 2px solid orangered; }
+
+main .rmpl .pl {
+  height: 1rem;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 1rem; }
